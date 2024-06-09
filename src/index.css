@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  /* background-color: blue;*/
+  width: 80%; 
+  margin: 20px auto;
+  padding: 20px 30px;
+}
+
+/* budget-container */
+.budget_container{
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+}
+.budget_container h2{
+  color: blueviolet;
+  font-size: 1.70rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  /* margin-top: 0; */
+}
+
+.budget_form {
+  align-self: center;
+}
+.budget_form input{
+  padding: 10px 40px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.budget_form button{
+  padding: 10px 40px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+}
+
+button:hover{
+  color: darkblue;
+}
+.transitions_info{
+  /* display: flex; */
+  justify-content: space-between;
+  position: relative;
+  padding: 10px 30px;
+  margin-bottom: 250px;
+}
+.tran_list{
+ display: flex;
+ justify-content: space-around;
+ font-size: 1.5rem;
+}
+#info{
+  border: 1px solid;
+ 
+}
+.tran_del_btn{
+  align-self: center;
+}
+.tran_delte_btn{
+  padding: 15px 15px;
+  border: 1px solid;
+  cursor: pointer;
+  border: none;
+  border-radius: 50% ;
+}
+
+.tran_delte_btn:hover{
+  background-color: red;
+}
+
+#transition_form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.transition_input{
+  background-color: darkblue;
+  color: white;
+  position: fixed;
+  width: 80%;
+  z-index: 1;
+  top: 68%;
+  height: 30%;
+  padding-top: 30px;
+}
+
+#transition_form input{
+   padding:10px 30px;
+   border-radius: 6px;
+}
+select{
+  padding: 10px 70px;
+  border-radius: 6px;
+}
+
+form .submit{
+  padding: 10px 50px;
+  margin:20px 0 0 57px;
+  font-size: 1.2rem;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
